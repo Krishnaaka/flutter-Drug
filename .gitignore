@@ -1,0 +1,63 @@
+# .gitignore for DISCTS repository
+# OS generated files
+*.lnk
+*.lnk?
+*.tmp
+*.bak
+Thumbs.db
+Desktop.ini
+
+# IDE / editor files
+*.iml
+.idea/
+.vscode/
+*.vs
+
+# PDF / PPT / documents not part of code
+*.pdf
+*.docx
+*.pptx
+*.ppt
+*.xlsx
+
+# Day*/ and Demo*/ temporary demo folders
+Day*/
+Demo*/
+Day*/**
+Demo*/**
+
+# Shortcut files
+*.url
+*.lnk
+
+# Build artefacts
+/build/
+/out/
+/.gradle/
+/.classpath
+/.project
+/.settings/
+
+# Flutter specific generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+pubspec.lock
+.idea/
+.android/
+.ios/
+.web/
+windows/
+macos/
+linux/
+
+# Node / npm artefacts (if any)
+node_modules/
+package-lock.json
+
+# Misc
+*_temp/
+_repo_temp/
